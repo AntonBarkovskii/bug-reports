@@ -1,0 +1,49 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G23-105","group2.3","Star","When clicking the ""Refresh"" button, the TO-DO program crashes.","barkas4505","12 Jan 2023","12 Jan 2023",,"Show-stopper","Bug","Open","Unassigned","Unscheduled",,"Samsung galaxy A32; Android 13","No qase tc # (only for bug)","**Pre-conditions:** At least three tasks have been created. A checkbox is placed next to one or two tasks.
+
+**Step 1**\: Open the kebab-menu and tap the ""refresh"" button.
+
+**Expected result:** The task section has been updated.
+
+**Actual Result:** The program crashes. The created tasks are not saved when you re-enter the program.","0"
+"G23-104","group2.3","Star","The task was removed without a checkbox.","barkas4505","12 Jan 2023","12 Jan 2023",,"Major","Bug","Open","Unassigned","Unscheduled",,"Samsung galaxy A32; Android 13","No qase tc # (only for bug)","**Pre-conditions:** At least three tasks have been created. A checkbox is placed next to one or two tasks.
+
+**Step 1**\: Select one of the tasks that have been created.
+
+**Step 2**\: Mark the task with a checkbox.
+
+**Step 3**\: Tap the ""Delete task"" button.
+
+**Step 4**\: Steps 1 and 3 should be repeated (without putting down a checkbox).
+
+**Expected result:** The task was not removed.
+
+**Actual Result:** The task was removed.","0"
+"G23-102","group2.3","Star","The ""←"" button cannot be used to exit the area for creating a new task.","barkas4505","12 Jan 2023","12 Jan 2023",,"Critical","Bug","Open","Unassigned","Unscheduled",,"Samsung galaxy A32; Android 13","No qase tc # (only for bug)","**Step 1**\: Click the ""+"" button.
+
+**Step 2**\: Click the ""←"" button.
+
+**Expected result:** Leaving the area for adding a new task
+
+**Actual Result:** It is not possible to exit the section for creating a new task. A restart of the application is necessary.","0"
+"G23-103","group2.3","Star","In the To-DO application, the ""Active"" filter is set incorrectly.","barkas4505","12 Jan 2023","12 Jan 2023",,"Normal","Bug","Open","Unassigned","Unscheduled",,"Samsung galaxy A32; Android 13","No qase tc # (only for bug)","**Pre-conditions:** At least three tasks have been created. A checkbox is placed next to one or two tasks.
+
+**Step 1**\: Open the filter menu.
+
+**Step 2**\: Tap the ""Active"" button.
+
+**Expected result:** Tasks that have not been marked with a checkbox are shown.
+
+**Actual Result:** All tasks are shown.","0"
+"G23-101","group2.3","Star","It is not possible to create a task with a numerical title.","barkas4505","12 Jan 2023","12 Jan 2023",,"Show-stopper","Bug","Open","Unassigned","Unscheduled",,"Samsung galaxy A32; Android 13","No qase tc # (only for bug)","**Step 1**\: Tap the ""+"" button.
+
+**Step 2**\: Enter data in the title and click the button ""✓""
+
+**Step 3**\: Tap the ""+"" button.
+
+**Step 4**\: Enter data in the title and click the button ""✓""
+
+**Expected result:** The new task is shown. The message ""TO-DO saved"" was shown.
+
+**Actual Result:** Task not created","0"
+"G23-100","group2.3","Star","Mobile App Testing Anton Barkovskii","barkas4505","12 Jan 2023","12 Jan 2023",,"Normal","Epic","Open","Unassigned","Unscheduled",,"No environment","No qase tc # (only for bug)",,"0"
